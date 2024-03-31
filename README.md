@@ -1,15 +1,15 @@
 ## Developing-a-Naive-Search-Engine-Utilising-MapReduce-Technology
-#Dependencies:
-Jupyter NoteBook\n
-IPython\n
-Pandas\n
-NumPy\n
-Nltk\n
+**Dependencies:**
+Jupyter NoteBook
+IPython
+Pandas
+NumPy
+Nltk
 
-Introduction:
+**Introduction:**
 This repository contains implementation of Developing a Naive Seearch Engine Utilising Mapreduce Technology, which leverages a dataset of Wikipedia CSV file containing 5 million rows, utilising a Map-Reduce Technology as part of an assignment for the Fundamental of Big Data Analytics (DS2004) course.
 
-Where Our Solution Differs:
+**Where Our Solution Differs:**
 In the MapReduce paradigm, Hadoop plays a critical role in distributing and managing the processing of vast datasets across a cluster of interconnected computers. It facilitates job scheduling and management, ensuring that Map and Reduce tasks are executed efficiently across the cluster's nodes. Hadoop handles the distribution of input data blocks, striving to minimize data movement across the network by processing data locally whenever feasible. Moreover, it offers fault tolerance mechanisms, automatically replicating data blocks and restarting failed tasks to maintain job integrity and reliability. Hadoop's resource management capabilities dynamically allocate computational resources to tasks, optimizing cluster utilization and performance. Overall, Hadoop serves as the underlying framework that enables the scalable and parallel processing of data in the MapReduce model, making it feasible to tackle large-scale data analysis tasks efficiently.
 
 Vector Space Model for Information Retrieval:
@@ -58,7 +58,7 @@ Query:
 Microsoft Azure 
 For Apache Hadoop cluster we have used Microsoft Azure. We created one master and two slaves. After uploading our mapper, reducer and data set files on Virtual machines in Azure we encountered some errors while trying to run those files. Firstly our files were stored in /home/hadoop-master folder and when we tried to run our map-reduce files we encountered permission denied error. Then we moved all our files from hadoop-master folder to hadoopuser folder and tried running them again but still encountered the same error. And then encountered the same error again when we moved our files from hadoopuser to home. Firstly we wrote our whole code in a single when and it was working fine and was giving correct output. Then we converted it into mapper and reducer files but encountered permission denied errors while running mapper file on master. We did a lot of research to resolve the error but could not find the solution.
 
-Contributors:
+**Contributors:**
 Ahsan Abdul  (i221870@nu.edu.pk)
 Awais Arshad (i221989@nu.edu.pk)
 Ali Zaib     (i221900@nu.edu.pk)
