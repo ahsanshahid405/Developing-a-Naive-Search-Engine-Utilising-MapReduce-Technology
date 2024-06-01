@@ -1,8 +1,8 @@
 ## Developing-a-Naive-Search-Engine-Utilising-MapReduce-Technology
-**Dependencies:**
+** Dependencies: **
 Jupyter NoteBook, IPython, Pandas, NumPy, Nltk
 
-**Introduction:**
+** Introduction: **
 This repository contains implementation of Developing a Naive Seearch Engine Utilising Mapreduce Technology, which leverages a dataset of Wikipedia CSV file containing 5 million rows, utilising a Map-Reduce Technology as part of an assignment for the Fundamental of Big Data Analytics (DS2004) course.
 
 **Where Our Solution Differs:**
